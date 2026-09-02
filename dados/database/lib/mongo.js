@@ -175,8 +175,25 @@ function set(colecao, chave, valor) {
   setCache(colecao, chave, valor)
 }
 
+// Pré-carrega uma coleção inteira no cache em memória, pra get() nunca
+// retornar undefined por causa da corrida entre o cache frio e o load
+// assíncrono do Mongo logo após o processo subir.
+async function preAquecerColecao(colecao) {
+  if (!db) return
+  try {
+    const docs = await db.collection(colecao).find({}).toArray()
+    for (const doc of docs) {
+      setCacheSilencioso(colecao, doc._id, doc.valor)
+    }
+  } catch (_) {}
+}
+
 async function iniciar() {
   await conectar()
+  await Promise.all([
+    preAquecerColecao('grupos'),
+    preAquecerColecao('sistemas_config')
+  ])
 }
 
 module.exports = {

@@ -35,24 +35,32 @@ const path = require('path')
 const axios = require('axios')
 const FormData = require('form-data')
 const crypto = require('crypto')
+const mongo = require('../database/lib/mongo')
 
 const BASE = path.join(__dirname, '..', 'database', 'sistemas')
+const COLECAO = 'sistemas_config'
 
 if (!fs.existsSync(BASE)) fs.mkdirSync(BASE, { recursive: true })
 
 const arq = n => path.join(BASE, n)
 
 const ler = (n, p = {}) => {
+const doBanco = mongo.get(COLECAO, n)
+if (doBanco && typeof doBanco === 'object') return doBanco
+
 try {
 const d = JSON.parse(fs.readFileSync(arq(n), 'utf8'))
-return d && typeof d === 'object' ? d : p
-} catch {
-return JSON.parse(JSON.stringify(p))
+if (d && typeof d === 'object') {
+mongo.set(COLECAO, n, d)
+return d
 }
+} catch {
+}
+return JSON.parse(JSON.stringify(p))
 }
 
 const salvar = (n, d) => {
-fs.writeFileSync(arq(n), JSON.stringify(d, null, 2) + '\n')
+mongo.set(COLECAO, n, d)
 return d
 }
 
