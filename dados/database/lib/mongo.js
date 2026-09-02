@@ -112,6 +112,25 @@ async function gravar(colecao, chave, valor) {
   }
 }
 
+// Remove um documento do Mongo e do cache.
+async function remover(colecao, chave) {
+  const mapa = cache.get(colecao)
+  if (mapa) mapa.delete(String(chave))
+  if (!db) return
+  try {
+    await db.collection(colecao).deleteOne({ _id: String(chave) })
+  } catch (_) {}
+}
+
+// Remove todos os documentos de uma coleção (ex.: limpar sessão do WhatsApp).
+async function limparColecao(colecao) {
+  cache.delete(colecao)
+  if (!db) return
+  try {
+    await db.collection(colecao).deleteMany({})
+  } catch (_) {}
+}
+
 function getCache(colecao, chave) {
   const mapa = cache.get(colecao)
   return mapa ? mapa.get(String(chave)) : undefined
@@ -167,9 +186,12 @@ module.exports = {
   set,
   carregar,
   gravar,
+  remover,
+  limparColecao,
   config,
   getConfig: config,
   setUri: u => { uri = u },
   getBanco: () => banco,
-  getClient: () => client
+  getClient: () => client,
+  getDb: () => db
 }

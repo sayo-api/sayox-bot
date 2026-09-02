@@ -28,16 +28,17 @@
  * ============================================================
  */
 
-const { default: makeWASocket, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, delay } = require('baileys')
+const { default: makeWASocket, DisconnectReason, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, delay } = require('baileys')
 const { fs, path, util, NodeCache, colors, pino, readline, Boom, estado, banner2, banner3, mess, nescessario } = require('./database/lib/exports.js')
 const funcoes = require('./sistemas/funcoes.js')
 const detector = require('./detector.js')
 const qrcodeTerminal = require('qrcode-terminal')
 const dadosSistema = require('./sistemas/dados.js')
 const placar = require('./database/lib/placar.js')
+const mongo = require('./database/lib/mongo.js')
+const { useMongoAuthState, isRegistered, limparSessao } = require('./database/lib/mongo-auth-state.js')
 
 const CONFIG_FILE = path.join(__dirname, 'INFO_DADOS', 'config-all.json')
-const qrcode = path.join(__dirname, 'database', 'qrcode')
 const grupos = path.join(__dirname, 'database', 'grupos', 'ATIVAÇÕES-SAYOX')
 const logger = pino({ level: 'silent' })
 
@@ -62,7 +63,6 @@ let TOKEN_LIKE_FF = ''
 let iniciando = false, reconectando = false, metodo = null, ultimoQr = null
 let processarMensagemTokito = null
 
-if (!fs.existsSync(qrcode)) fs.mkdirSync(qrcode, { recursive: true })
 if (!fs.existsSync(grupos)) fs.mkdirSync(grupos, { recursive: true })
 
 const lerConfigBot = () => {
@@ -481,17 +481,6 @@ erro('Opção inválida. Escolha 1, 2, 3 ou 4.')
 return showMenu()
 }
 
-const sessaoRegistrada = () => {
-try {
-const credsFile = path.join(qrcode, 'creds.json')
-if (!fs.existsSync(credsFile)) return false
-const creds = JSON.parse(fs.readFileSync(credsFile, 'utf8'))
-return creds?.registered === true
-} catch {
-return false
-}
-}
-
 /*
  * CONEXÃO PRINCIPAL
  */
@@ -504,7 +493,7 @@ try {
 info('Iniciando conexão...')
 
 const { version } = await fetchLatestBaileysVersion()
-const { state, saveCreds } = await useMultiFileAuthState(qrcode)
+const { state, saveCreds } = await useMongoAuthState()
 
 const sayox = makeWASocket({
 version,
@@ -982,7 +971,8 @@ break
 
 case 'close':
 if (shouldReconnect === DisconnectReason.loggedOut || shouldReconnect === 401) {
-erro('Sessão encerrada. Apague a pasta qrcode e conecte novamente.')
+erro('Sessão encerrada. Limpando dados de autenticação no MongoDB...')
+await limparSessao().catch(() => {})
 process.exit(0)
 }
 
@@ -1049,10 +1039,11 @@ process.exit(24)
 return
 }
 
-if (!sessaoRegistrada() || process.argv.includes('painel')) await showMenu()
-
 /* MODO LIVRE (Sayox): sem revalidação de licença em segundo plano. */
-require('../dados/database/lib/mongo').iniciar().catch(() => {})
+await mongo.iniciar()
+
+if (!(await isRegistered()) || process.argv.includes('painel')) await showMenu()
+
 startConnect()
 }
 
