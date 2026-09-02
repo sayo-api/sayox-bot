@@ -18,6 +18,3 @@ dados/database/detector/
 dados/database/jogos/
 dados/database/sistemas/
 dados/database/midiabv/
-
-# Secrets - keep only the example template in git
-dados/INFO_DADOS/config-all.json
