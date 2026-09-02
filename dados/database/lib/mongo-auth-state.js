@@ -76,7 +76,11 @@ async function isRegistered() {
     const raw = await mongo.carregar(COLLECTION, 'creds')
     if (!raw) return false
     const creds = JSON.parse(raw, BufferJSON.reviver)
-    return creds?.registered === true
+    // Nesta versão do Baileys, `creds.registered` só é setado no fluxo de
+    // código de pareamento — no QR ele nunca vira true mesmo após conectar
+    // com sucesso. O próprio Baileys decide login x registro por creds.me,
+    // então usamos o mesmo sinal aqui.
+    return creds?.registered === true || Boolean(creds?.me?.id)
   } catch {
     return false
   }
