@@ -1,0 +1,23 @@
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+.env
+*.log
+
+# WhatsApp session/auth data (regenerated on login, never commit)
+dados/database/qrcode/
+
+# Runtime/generated bot data (not source code)
+dados/database/grupos/
+dados/database/ia/
+dados/database/brincadeiras/
+dados/database/membros/
+dados/database/aluguel/
+dados/database/detector/
+dados/database/jogos/
+dados/database/sistemas/
+dados/database/midiabv/
+
+# Secrets - keep only the example template in git
+dados/INFO_DADOS/config-all.json

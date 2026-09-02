@@ -1,0 +1,44 @@
+{
+  "name": "SayoxBot",
+  "version": "1.0.0",
+  "description": "Sayox Bot - Bot de WhatsApp baseado no Baileys, modo livre (sem licença Tokito).",
+  "main": "sayox.js",
+  "scripts": {
+    "start": "node sayox.js",
+    "update": "node sayox.js up",
+    "install:bot": "bash dados/database/lib/install.sh"
+  },
+  "keywords": [],
+  "author": "dylanModz",
+  "license": "SEE LICENSE IN dados/LICENSE",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dylan-Modz"
+  },
+  "homepage": "https://tokito-apis.com.br",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "acrcloud": "^1.4.0",
+    "axios": "^1.13.2",
+    "baileys": "file:./baileys",
+    "cfonts": "^3.3.1",
+    "cheerio": "^1.1.2",
+    "colors": "^1.4.0",
+    "file-type": "^16.5.4",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.4",
+    "linkifyjs": "^4.3.2",
+    "mongodb": "^7.6.0",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.7.0",
+    "node-webpmux": "^3.2.1",
+    "pino": "^10.3.1",
+    "qrcode-terminal": "^0.12.0",
+    "uuid": "^9.0.1",
+    "yt-search": "^2.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylan-Modz/Tokitobot-V10.git"
+  }
+}

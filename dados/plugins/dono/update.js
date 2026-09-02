@@ -1,0 +1,139 @@
+/*
+ * ============================================================
+ *                     SAYOX BOT
+ * ============================================================
+ *
+ * Projeto disponibilizado gratuitamente para a comunidade.
+ *
+ * Você pode modificar, personalizar e utilizar este bot
+ * conforme sua preferência, inclusive mantendo o nome Tokito.
+ *
+ * REGRAS:
+ * • É proibida a venda ou revenda deste código-fonte.
+ * • Não comercialize versões modificadas deste projeto.
+ * • Não reivindique a autoria original do projeto.
+ * • Respeite os créditos e o trabalho dos desenvolvedores.
+ * • Utilize o projeto com respeito e responsabilidade.
+ *
+ * ATENÇÃO:
+ * A venda, revenda ou comercialização não autorizada deste
+ * projeto poderá resultar em medidas legais para proteção
+ * dos direitos dos autores, incluindo processo judicial,
+ * conforme a legislação aplicável.
+ *
+ * Author: Sayox
+ * API oficial: https://tokito-apis.com.br
+ *
+ * Modifique como quiser. Apenas respeite as regras.
+ * ============================================================
+ */
+
+const sistema = require('../../sistemas/dados')
+
+const dylan = require('../../database/lib/comandos')
+
+dylan.setCommand({
+nome: 'update',
+comandos: ['update'],
+categoria: 'dono',
+info: {
+descricao: 'Verifica, instala ou restaura atualizações oficiais do Tokito V10.',
+uso: 'update check | info | start | rollback',
+permissao: 'Dono'
+},
+
+async executar(ctx) {
+if (!ctx.SoDono && !ctx.info?.key?.fromMe) {
+return ctx.reply(ctx.mess.onlyOwner())
+}
+
+const acao = String(ctx.args?.[0] || ctx.q || 'check')
+.trim()
+.split(/\s+/)[0]
+.toLowerCase()
+
+if (acao === 'check' || acao === 'info') {
+const check = await sistema.verificarUpdate()
+
+if (!check.ok) {
+if (check.reason === 'not_published') {
+return ctx.reply(ctx.mess.updateNotPublished())
+}
+
+return ctx.reply(ctx.mess.updateCheckError())
+}
+
+const totalPendentes =
+(Array.isArray(check.pendingFiles) ? check.pendingFiles.length : 0) +
+(Array.isArray(check.pendingDelete) ? check.pendingDelete.length : 0)
+
+if (check.available && check.incremental && !totalPendentes) {
+return ctx.reply(ctx.mess.updateEmptyFiles(check.remote?.version))
+}
+
+return ctx.reply(ctx.mess.updateInfo({
+instalada: check.local.version || '—',
+disponivel: check.remote.version || '—',
+canal: check.remote.channel || 'stable',
+modo: check.mode || (check.incremental ? 'incremental' : 'clean'),
+disponivelAgora: check.available,
+changelog: Array.isArray(check.remote?.changelog)
+? check.remote.changelog
+: [],
+arquivos: Array.isArray(check.pendingFiles)
+? check.pendingFiles.map(item => item.path)
+: [],
+removidos: Array.isArray(check.pendingDelete)
+? check.pendingDelete.map(item => item.path)
+: [],
+prefix: ctx.prefix
+}))
+}
+
+if (acao === 'start') {
+await ctx.reply(ctx.mess.updatePreparing())
+
+try {
+const result = await sistema.instalarUpdate(
+texto => console.log(`[ UPDATE • TOKITO ] ${texto}`)
+)
+
+if (!result.updated) {
+if (result.reason === 'empty_update') {
+return ctx.reply(ctx.mess.updateEmptyFiles(result.remote?.version))
+}
+
+return ctx.reply(ctx.mess.updateAlreadyLatest(result.version))
+}
+
+await ctx.reply(ctx.mess.updateSuccess(
+result.from,
+result.version,
+result.filesUpdated || 0,
+result.filesDeleted || 0
+))
+
+return setTimeout(() => process.exit(20), 1500)
+} catch (error) {
+console.log('[ UPDATE • TOKITO ]', error.message || error)
+return ctx.reply(ctx.mess.updateError())
+}
+}
+
+if (acao === 'rollback') {
+try {
+const result = sistema.rollback()
+
+await ctx.reply(ctx.mess.updateRollbackSuccess(result.version))
+
+return setTimeout(() => process.exit(20), 1500)
+} catch (error) {
+console.log('[ ROLLBACK • TOKITO ]', error.message || error)
+return ctx.reply(ctx.mess.updateRollbackError())
+}
+}
+
+return ctx.reply(ctx.mess.updateUsage(ctx.prefix))
+}
+}
+)

@@ -1,0 +1,2483 @@
+{
+  "bot": "Tokito Bot V10",
+  "version": "10.0.95",
+  "channel": "stable",
+  "repository": "dylan-Modz/Tokitobot-V10",
+  "ref": "main",
+  "publishedAt": "2026-09-02T01:09:24.489Z",
+  "changelog": [
+    "[Novidade] feat: melhora playlist radio e player",
+    "A versão 10.0.95 já está disponível para atualização.",
+    "Mensagens atualizado",
+    "Playlist atualizado"
+  ],
+  "delete": [],
+  "archiveSha256": "",
+  "type": "Novidade",
+  "title": "feat: melhora playlist radio e player",
+  "notice": "A versão 10.0.95 já está disponível para atualização.",
+  "required": true,
+  "minimumVersion": "10.0.0",
+  "files": [
+    {
+      "path": "dados/mensagens/mensagens.js",
+      "sha256": "203caaba4638a80931294136494948a7c45e008875bea70d00f8f9e099865d1b",
+      "size": 205607
+    },
+    {
+      "path": "dados/plugins/downloads/playlist.js",
+      "sha256": "5c39ca745a840ab5a2ac280d602085a1fd163d43d40dd01f3bc024c92f36c125",
+      "size": 20484
+    },
+    {
+      "path": "dados/sistemas/playlist.js",
+      "sha256": "13173b9c64a2fe5ff08e4ceff970ffab81fc38379c30bd3b60b9a388f5ff62f5",
+      "size": 37459
+    }
+  ],
+  "releases": [
+    {
+      "version": "10.0.3",
+      "fromVersion": "10.0.2",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Menu atualizado",
+      "notice": "A versão 10.0.3 já está disponível para atualização.",
+      "changelog": [
+        "Menu atualizado"
+      ],
+      "files": [],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T01:08:28.822Z"
+    },
+    {
+      "version": "10.0.4",
+      "fromVersion": "10.0.4",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Menu atualizado",
+      "notice": "A versão 10.0.3 já está disponível para atualização.",
+      "changelog": [
+        "Menu atualizado"
+      ],
+      "files": [],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T01:11:02.147Z"
+    },
+    {
+      "version": "10.0.5",
+      "fromVersion": "10.0.5",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playstore atualizado",
+      "notice": "A versão 10.0.5 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playstore atualizado"
+      ],
+      "files": [],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T01:13:17.587Z"
+    },
+    {
+      "version": "10.0.6",
+      "fromVersion": "10.0.6",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Menu atualizado",
+      "notice": "A versão 10.0.6 já está disponível para atualização.",
+      "changelog": [
+        "Menu atualizado"
+      ],
+      "files": [],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T01:17:34.093Z"
+    },
+    {
+      "version": "10.0.7",
+      "fromVersion": "10.0.7",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Menu atualizado",
+      "notice": "A versão 10.0.7 já está disponível para atualização.",
+      "changelog": [
+        "Menu atualizado"
+      ],
+      "files": [],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T06:57:03.393Z"
+    },
+    {
+      "version": "10.0.8",
+      "fromVersion": "10.0.7",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Sistema Antilink atualizado",
+      "notice": "A versão 10.0.8 já está disponível para atualização.",
+      "changelog": [
+        "Sistema Antilink atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/funcoes/antilink.js",
+          "sha256": "ee39b64e4c64dc8289aa141331f9f69b3716c1e426138aa09b8e0bcd46f6b051",
+          "size": 5031
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T07:54:33.805Z"
+    },
+    {
+      "version": "10.0.9",
+      "fromVersion": "10.0.8",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Global atualizado",
+      "notice": "A versão 10.0.1 já está disponível para atualização.",
+      "changelog": [
+        "Global atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "43203195cf351214279be872adf3ed35cc6121c511a70baabc920d07a72ae8df",
+          "size": 142902
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T08:09:35.363Z"
+    },
+    {
+      "version": "10.0.10",
+      "fromVersion": "10.0.9",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Dados atualizado",
+      "notice": "A versão 10.0.10 já está disponível para atualização.",
+      "changelog": [
+        "Dados atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/sistemas/dados.js",
+          "sha256": "3a8096a086d9104d9b9f4a5a3fcfba0c93e8af2280e290723c5e4b1ed9b616f9",
+          "size": 126850
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T08:24:33.724Z"
+    },
+    {
+      "version": "10.0.11",
+      "fromVersion": "10.0.10",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Update atualizado",
+      "notice": "A versão 10.0.11 já está disponível para atualização.",
+      "changelog": [
+        "Update atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/dono/update.js",
+          "sha256": "0db04a1e16f64444d4022def82b794100a63e5a4caf2ef93967806de1ac25a96",
+          "size": 24701
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T08:25:25.429Z"
+    },
+    {
+      "version": "10.0.12",
+      "fromVersion": "10.0.11",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.12 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "9386c5d03d55ddd92c95b7df4d5299f868366fcbb713938474a86a8acccdfe4b",
+          "size": 429849
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T08:28:36.150Z"
+    },
+    {
+      "version": "10.0.13",
+      "fromVersion": "10.0.12",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Conexão do bot atualizada",
+      "notice": "A versão 10.0.13 já está disponível para atualização.",
+      "changelog": [
+        "Conexão do bot atualizada"
+      ],
+      "files": [
+        {
+          "path": "dados/connect.js",
+          "sha256": "03e2561a5e797d62a76b66f1ca0f850f79bd99819f3a905f395be03463ef124d",
+          "size": 299439
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T08:30:48.930Z"
+    },
+    {
+      "version": "10.0.14",
+      "fromVersion": "10.0.13",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Conexão do bot atualizada",
+      "notice": "A versão 10.0.14 já está disponível para atualização.",
+      "changelog": [
+        "Conexão do bot atualizada"
+      ],
+      "files": [
+        {
+          "path": "dados/connect.js",
+          "sha256": "748c3666396b437088ba027ed56fbe1bd76c8afa6aabcb608eb341e91525ebd1",
+          "size": 28540
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T08:33:40.080Z"
+    },
+    {
+      "version": "10.0.15",
+      "fromVersion": "10.0.14",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Global atualizado",
+      "notice": "A versão 10.0.0 já está disponível para atualização.",
+      "changelog": [
+        "Global atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "7937548fd58028317404c192021aac4666f833b345e37a911b0d7e34e47c2afc",
+          "size": 143521
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T09:16:49.137Z"
+    },
+    {
+      "version": "10.0.16",
+      "fromVersion": "10.0.15",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Aprovacao atualizado",
+      "notice": "A versão 10.0.16 já está disponível para atualização.",
+      "changelog": [
+        "Aprovacao atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/funcoes/aprovacao.js",
+          "sha256": "422c68a1f8aa897876eb1fe8dd276d24d668276842b941a9458bbda0af7c0587",
+          "size": 9814
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T09:18:17.305Z"
+    },
+    {
+      "version": "10.0.17",
+      "fromVersion": "10.0.16",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Package atualizado",
+      "notice": "A versão 10.0.17 já está disponível para atualização.",
+      "changelog": [
+        "Package atualizado"
+      ],
+      "files": [
+        {
+          "path": "package.json",
+          "sha256": "7030a61e7543b6ec2b628ec635f4636f21f5fd31f6efdf076db2e37bbecdf7c6",
+          "size": 959
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T11:20:46.559Z"
+    },
+    {
+      "version": "10.0.18",
+      "fromVersion": "10.0.17",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.18 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "2b5ef45271bce752b3de7e842a69f6b0259dc9720eb833e7ef0a40d47a031b55",
+          "size": 42542
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T14:03:47.760Z"
+    },
+    {
+      "version": "10.0.19",
+      "fromVersion": "10.0.18",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Conexão do bot atualizada",
+      "notice": "A versão 10.0.19 já está disponível para atualização.",
+      "changelog": [
+        "Conexão do bot atualizada"
+      ],
+      "files": [
+        {
+          "path": "dados/connect.js",
+          "sha256": "748c3666396b437088ba027ed56fbe1bd76c8afa6aabcb608eb341e91525ebd1",
+          "size": 28540
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T14:06:37.677Z"
+    },
+    {
+      "version": "10.0.20",
+      "fromVersion": "10.0.19",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Dados atualizado",
+      "notice": "A versão 10.0.20 já está disponível para atualização.",
+      "changelog": [
+        "Dados atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/sistemas/dados.js",
+          "sha256": "8a515217ed45bce488ddf80f10e33e1a7cd8caf668865f7ca3703db7c948b129",
+          "size": 26736
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T14:06:52.410Z"
+    },
+    {
+      "version": "10.0.21",
+      "fromVersion": "10.0.20",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Update atualizado",
+      "notice": "A versão 10.0.21 já está disponível para atualização.",
+      "changelog": [
+        "Update atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/dono/update.js",
+          "sha256": "39a33e59da7db245904c33d3b17946d23af70b18967ed8c5838b619d5f693710",
+          "size": 3673
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T14:07:11.236Z"
+    },
+    {
+      "version": "10.0.22",
+      "fromVersion": "10.0.21",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Conexão do bot atualizada",
+      "notice": "A versão 10.0.22 já está disponível para atualização.",
+      "changelog": [
+        "Conexão do bot atualizada"
+      ],
+      "files": [
+        {
+          "path": "dados/connect.js",
+          "sha256": "4accc67ac9be7bc5c390327d6ca7f1bc0855f7c764c091d2379f1111db7e1602",
+          "size": 28202
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T16:38:52.928Z"
+    },
+    {
+      "version": "10.0.23",
+      "fromVersion": "10.0.22",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "3 arquivos atualizados",
+      "notice": "A versão 10.0.23 já está disponível para atualização.",
+      "changelog": [
+        "Gerarlink atualizado",
+        "Global atualizado",
+        "Modulos atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/outros/gerarlink.js",
+          "sha256": "d514b97de53c158a8e84ee089240037423c5867dbb53c570b00a09942bb6b407",
+          "size": 4035
+        },
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "9b38f91ba41cf59920f9630b0c38e7d0a7920a3254a2678731aa3d6782fadd13",
+          "size": 144487
+        },
+        {
+          "path": "dados/sistemas/modulos.js",
+          "sha256": "a29aba11119e815f7dbf9385c0c212d39cac8b945205122a74979d669222ebac",
+          "size": 13185
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T17:05:35.010Z"
+    },
+    {
+      "version": "10.0.24",
+      "fromVersion": "10.0.23",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "2 arquivos atualizados",
+      "notice": "A versão 10.0.24 já está disponível para atualização.",
+      "changelog": [
+        "Aprovacao atualizado",
+        "Global atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/funcoes/aprovacao.js",
+          "sha256": "25e04ba88eb76eba52b25505e234d516bc83f209d61699055f5935d3261d414e",
+          "size": 12004
+        },
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "971f2ee2424a3e92778d12e2405c0cafd39a5f9c08490efa389cb960b58c41ac",
+          "size": 144975
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-12T17:30:05.351Z"
+    },
+    {
+      "version": "10.0.25",
+      "fromVersion": "10.0.24",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Marcacoes atualizado",
+      "notice": "A versão 10.0.25 já está disponível para atualização.",
+      "changelog": [
+        "Marcacoes atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/admin/marcacoes.js",
+          "sha256": "d0524adaf591d006fb1e6512b4a9c7dde5ead650f59d4c120c78376ca67f09f4",
+          "size": 4610
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T00:06:01.491Z"
+    },
+    {
+      "version": "10.0.26",
+      "fromVersion": "10.0.25",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Akinator atualizado",
+      "notice": "A versão 10.0.26 já está disponível para atualização.",
+      "changelog": [
+        "Akinator atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/jogos/akinator.js",
+          "sha256": "5e841f18fe96ae558ae670840713fc2d2f10377fd80fd350acf5b82326b80073",
+          "size": 11892
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T00:18:33.437Z"
+    },
+    {
+      "version": "10.0.27",
+      "fromVersion": "10.0.26",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Menus atualizados",
+      "notice": "A versão 10.0.27 já está disponível para atualização.",
+      "changelog": [
+        "Menus atualizados"
+      ],
+      "files": [
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "62df55238c8c973fc0b7df623f13bd9e4aff9457f0b0c82ce910375dd56df896",
+          "size": 48345
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T00:22:38.899Z"
+    },
+    {
+      "version": "10.0.28",
+      "fromVersion": "10.0.27",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "3 arquivos atualizados",
+      "notice": "A versão 10.0.28 já está disponível para atualização.",
+      "changelog": [
+        "Jogo Akinator atualizado",
+        "Global atualizado",
+        "Menus atualizados"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/jogos/akinator.js",
+          "sha256": "bbaa36a30b7eed6553deda99669b14fd967aacb0032e10c8d9b0cc02af2e2813",
+          "size": 12695
+        },
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "7b115615b268845a06150d76926ac4c791dbc68e0187a143a134919c83f52201",
+          "size": 142570
+        },
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "4643f6d3bd49e450f42d1ad40eb0d48eda7752b7ff8b4ad7f80bf341fed6dfaa",
+          "size": 48391
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T12:36:08.801Z"
+    },
+    {
+      "version": "10.0.29",
+      "fromVersion": "10.0.28",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "X9 atualizado",
+      "notice": "A versão 10.0.29 já está disponível para atualização.",
+      "changelog": [
+        "X9 atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/funcoes/x9.js",
+          "sha256": "98f670d9052feee47e25331d7eff8a4409c8a5d3acf9e669a7d1323519a421b4",
+          "size": 14730
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T13:29:02.930Z"
+    },
+    {
+      "version": "10.0.30",
+      "fromVersion": "10.0.29",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Open atualizado",
+      "notice": "A versão 10.0.30 já está disponível para atualização.",
+      "changelog": [
+        "Open atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/admin/open.js",
+          "sha256": "1a1350ee5b6438bef78129169c9f95a4c27e07baecdab28dcbb691ffc7fe0900",
+          "size": 5534
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T13:41:07.523Z"
+    },
+    {
+      "version": "10.0.31",
+      "fromVersion": "10.0.30",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "4 arquivos atualizados",
+      "notice": "A versão 10.0.31 já está disponível para atualização.",
+      "changelog": [
+        "04 Bangplit atualizado",
+        "Del atualizado",
+        "Bangplit atualizado",
+        "Plans atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/eventos/04-bangplit.js",
+          "sha256": "258fbebf1f0d5c7c475cb68d78e6ee1519901cc425f1db6b8c9476d5577670f0",
+          "size": 3482
+        },
+        {
+          "path": "dados/plugins/admin/del.js",
+          "sha256": "50f4e947aa2e5062279bc885583b3c28d1ff809d42e96fbb1faace7d25026317",
+          "size": 3398
+        },
+        {
+          "path": "dados/plugins/dono/bangplit.js",
+          "sha256": "c811b477158833427c50c356c7d7280e6680a8289f57ffe8f885a1c9923f6ad2",
+          "size": 5460
+        },
+        {
+          "path": "dados/plugins/aluguel/plans.js",
+          "sha256": "003acfeb779ec5110a653d624c6b55e826d57d5c4d96882b50573edb83c38cfa",
+          "size": 6698
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T23:27:35.822Z"
+    },
+    {
+      "version": "10.0.32",
+      "fromVersion": "10.0.31",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Menus atualizados",
+      "notice": "A versão 10.0.32 já está disponível para atualização.",
+      "changelog": [
+        "Menus atualizados"
+      ],
+      "files": [
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "8794b60f77f26d72444579943485e4f06a1049be4ddcd8c2c1fb6a9be2a62354",
+          "size": 48528
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T23:31:41.413Z"
+    },
+    {
+      "version": "10.0.33",
+      "fromVersion": "10.0.32",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "3 arquivos atualizados",
+      "notice": "A versão 10.0.33 já está disponível para atualização.",
+      "changelog": [
+        "Global atualizado",
+        "Infoplanos atualizado",
+        "Menus atualizados"
+      ],
+      "files": [
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "fd05dc748529354e6e660721751e7900bec35d943d5e9bbb0fe5fe388213a890",
+          "size": 143590
+        },
+        {
+          "path": "dados/plugins/aluguel/infoplanos.js",
+          "sha256": "a2cc6baab6414adc65ddfdc51f7c5b0fb35489ad6cac97c50c659ec830fae3b6",
+          "size": 338
+        },
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "ddf9559e6832c8bf4e8c7d3d875dba305cf868024b56eaa522a988138ecc903e",
+          "size": 48578
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T23:49:51.916Z"
+    },
+    {
+      "version": "10.0.34",
+      "fromVersion": "10.0.33",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Plans atualizado",
+      "notice": "A versão 10.0.34 já está disponível para atualização.",
+      "changelog": [
+        "Plans atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/aluguel/plans.js",
+          "sha256": "7fc5c1a588c84edc951e5197b4e976b114f442216f274bce1dd503178add8d63",
+          "size": 6568
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-13T23:50:09.199Z"
+    },
+    {
+      "version": "10.0.35",
+      "fromVersion": "10.0.34",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Menus atualizados",
+      "notice": "A versão 10.0.35 já está disponível para atualização.",
+      "changelog": [
+        "Menus atualizados"
+      ],
+      "files": [
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "63180162d6aa769855450f0fc52eacb81d2e08a126fc46ec3dcd192772fe2dbe",
+          "size": 56012
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T03:22:01.823Z"
+    },
+    {
+      "version": "10.0.36",
+      "fromVersion": "10.0.35",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.36 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "b78f9f842286763657705708cfc1dda5b34aa1e3a51e0472570dbdb9201922e5",
+          "size": 43079
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T11:37:15.178Z"
+    },
+    {
+      "version": "10.0.37",
+      "fromVersion": "10.0.36",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.37 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "a132d3286859bac07708e116c1b7178261a3462fe39f9a5d6a977948653eea70",
+          "size": 43233
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T11:42:56.629Z"
+    },
+    {
+      "version": "10.0.38",
+      "fromVersion": "10.0.37",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.38 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "a3d2169e4d23e31d37f66951ed1723303af08d5e422cc469fd1b45ba9d2d11d9",
+          "size": 43189
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T11:46:32.641Z"
+    },
+    {
+      "version": "10.0.39",
+      "fromVersion": "10.0.38",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.39 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "a3d2169e4d23e31d37f66951ed1723303af08d5e422cc469fd1b45ba9d2d11d9",
+          "size": 43189
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T11:48:19.717Z"
+    },
+    {
+      "version": "10.0.40",
+      "fromVersion": "10.0.39",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "7 arquivos atualizados",
+      "notice": "A versão 10.0.40 já está disponível para atualização.",
+      "changelog": [
+        "Atividade atualizado",
+        "02 Atividades atualizado",
+        "Global atualizado",
+        "Atividades atualizado",
+        "Menus atualizados",
+        "Me atualizado",
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/_atividade.js",
+          "sha256": "1d8ed7c3a1e66e4e2e27b2f3cc09fd1ae6ec1123dc160f9703f663736888951f",
+          "size": 897
+        },
+        {
+          "path": "dados/plugins/eventos/02-atividades.js",
+          "sha256": "f4cc3c1dc87c8fd01d6ebebf9bc8da42be32124021cd3dabb8f4ee295715af0a",
+          "size": 1378
+        },
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "f015afcb8aed06d39c7786c2d018683febd020eacf0dedb2c2df0351cbc13c1e",
+          "size": 148141
+        },
+        {
+          "path": "dados/plugins/admin/atividades.js",
+          "sha256": "7550445c2bf5833a76a3f3fb049f3dab74fafdda6862836b826a21da0c6996c8",
+          "size": 2394
+        },
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "b8ed021e2e97c631daa9f3aa32b682dba817b265f895b12ccf9e630bdc2c6855",
+          "size": 56051
+        },
+        {
+          "path": "dados/plugins/outros/me.js",
+          "sha256": "2bbb6d4d4df5d1762da9f89498cea5d776000aac0d4bd9c29950c037360111d2",
+          "size": 858
+        },
+        {
+          "path": "tokito.js",
+          "sha256": "a3d2169e4d23e31d37f66951ed1723303af08d5e422cc469fd1b45ba9d2d11d9",
+          "size": 43189
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T12:54:17.118Z"
+    },
+    {
+      "version": "10.0.41",
+      "fromVersion": "10.0.40",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "2 arquivos atualizados",
+      "notice": "A versão 10.0.41 já está disponível para atualização.",
+      "changelog": [
+        "Atividades atualizado",
+        "Me atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/admin/atividades.js",
+          "sha256": "942417ff7debb18b5e9c81921489b1ad961db67e103f75d01c3d60678c841262",
+          "size": 2953
+        },
+        {
+          "path": "dados/plugins/outros/me.js",
+          "sha256": "a8f07eb971ebd432ed5026b69db2fb189b5caba5b96b17cd091592ef4042beeb",
+          "size": 926
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T13:00:58.631Z"
+    },
+    {
+      "version": "10.0.42",
+      "fromVersion": "10.0.41",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "X9 atualizado",
+      "notice": "A versão 10.0.42 já está disponível para atualização.",
+      "changelog": [
+        "X9 atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/funcoes/x9.js",
+          "sha256": "d6e9e65fda0c308eacc12d46481793e0e3e11ae43a1574eac2359c526927a99a",
+          "size": 14705
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T13:07:10.894Z"
+    },
+    {
+      "version": "10.0.43",
+      "fromVersion": "10.0.42",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.43 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "7e4ddbd9791243b4f85d9f05ffb2f820d5ea80d3466d9ccc6777322c3c891952",
+          "size": 43180
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T13:20:37.829Z"
+    },
+    {
+      "version": "10.0.44",
+      "fromVersion": "10.0.43",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "4 arquivos atualizados",
+      "notice": "A versão 10.0.44 já está disponível para atualização.",
+      "changelog": [
+        "Sistema Aprovacao atualizado",
+        "Global atualizado",
+        "Menus atualizados",
+        "Soli atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/grupo/aprovacao.js",
+          "sha256": "80b4e30613d5e4b9c8d3d85b16b24b85e2acffbea43346e0d73a010b14925beb",
+          "size": 860
+        },
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "6bdeb3d8d2c2bef7116b32dc5b2fdb01a7fd15656b6f9e03d94750f677739182",
+          "size": 150585
+        },
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "e81999ac4fb29f9f36641165f2fc517b3dca8b4cd00afa0a79fb61cbdd387557",
+          "size": 55885
+        },
+        {
+          "path": "dados/plugins/admin/soli.js",
+          "sha256": "53a697f03a82770453d5ab6e332b4a2366f025fbb5e729d8776622e27ed812f1",
+          "size": 1971
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T13:47:20.331Z"
+    },
+    {
+      "version": "10.0.45",
+      "fromVersion": "10.0.44",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Aprovacao atualizado",
+      "notice": "A versão 10.0.45 já está disponível para atualização.",
+      "changelog": [
+        "Aprovacao atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/funcoes/aprovacao.js",
+          "sha256": "dd04c9153c2ed6156faf2618ebf2e6025a112bf6e710e913fbbf18106e49a9dc",
+          "size": 13238
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T13:47:49.946Z"
+    },
+    {
+      "version": "10.0.46",
+      "fromVersion": "10.0.45",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Play atualizado",
+      "notice": "A versão 10.0.46 já está disponível para atualização.",
+      "changelog": [
+        "Comando Play atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/play.js",
+          "sha256": "687b35fb95b0ad71e06c0c3af5cc70904c4911420b3bf357eb3a4a765c3127f2",
+          "size": 5898
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T15:55:27.498Z"
+    },
+    {
+      "version": "10.0.47",
+      "fromVersion": "10.0.46",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Deezer atualizado",
+      "notice": "A versão 10.0.47 já está disponível para atualização.",
+      "changelog": [
+        "Comando Deezer atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/deezer.js",
+          "sha256": "3c9580176fc52dc977e71bd5dd4d74aba28c9e5d2fbd4ac04458d2f9490c64c1",
+          "size": 3332
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T21:32:58.091Z"
+    },
+    {
+      "version": "10.0.48",
+      "fromVersion": "10.0.47",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Applemusic atualizado",
+      "notice": "A versão 10.0.48 já está disponível para atualização.",
+      "changelog": [
+        "Comando Applemusic atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/applemusic.js",
+          "sha256": "2c504b63473a22da40a68dedccede576a6a533bec56146a0623020774cd0f467",
+          "size": 3769
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T21:36:58.221Z"
+    },
+    {
+      "version": "10.0.49",
+      "fromVersion": "10.0.48",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playvideo atualizado",
+      "notice": "A versão 10.0.49 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playvideo atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/playvideo.js",
+          "sha256": "e15fbb321d6f14858780afd02d402d33fa72f53e6fe15e4172010e2e6e3c22a8",
+          "size": 3366
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T22:32:48.763Z"
+    },
+    {
+      "version": "10.0.50",
+      "fromVersion": "10.0.49",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playvideo atualizado",
+      "notice": "A versão 10.0.50 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playvideo atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/playvideo.js",
+          "sha256": "78f9a80cb8ae252d4dc6b3d9a770d6228d61d810f6d953ebc970fef542085934",
+          "size": 3653
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T23:52:02.420Z"
+    },
+    {
+      "version": "10.0.51",
+      "fromVersion": "10.0.50",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playvideo atualizado",
+      "notice": "A versão 10.0.51 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playvideo atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/playvideo.js",
+          "sha256": "78f9a80cb8ae252d4dc6b3d9a770d6228d61d810f6d953ebc970fef542085934",
+          "size": 3653
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-14T23:53:04.584Z"
+    },
+    {
+      "version": "10.0.52",
+      "fromVersion": "10.0.51",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Index atualizado",
+      "notice": "A versão 10.0.52 já está disponível para atualização.",
+      "changelog": [
+        "Index atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/ia/index.js",
+          "sha256": "9a921af251d4eee603d77d585a99fe9000f2821ad6b375db4e77527eaaf6480e",
+          "size": 33439
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-16T18:46:04.582Z"
+    },
+    {
+      "version": "10.0.53",
+      "fromVersion": "10.0.52",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Index atualizado",
+      "notice": "A versão 10.0.53 já está disponível para atualização.",
+      "changelog": [
+        "Index atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/ia/index.js",
+          "sha256": "8009f463238ee3cea2277d2fa5d09b6ac10be775b013e33f497d87a2b4f086ae",
+          "size": 36575
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-16T19:31:49.008Z"
+    },
+    {
+      "version": "10.0.54",
+      "fromVersion": "10.0.53",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "3 arquivos atualizados",
+      "notice": "A versão 10.0.54 já está disponível para atualização.",
+      "changelog": [
+        "Comando Play atualizado",
+        "Comando Playdoc atualizado",
+        "Comando Playvideo atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/play.js",
+          "sha256": "10c7753ced34a54dc974d0e104100ceaf5c6070b08b5fe07c2f1582335368e0a",
+          "size": 9110
+        },
+        {
+          "path": "dados/plugins/casos/downloads/playdoc.js",
+          "sha256": "3cb5511651b59150ec95a1fb7ed04a53fb45d4f7a7150967f3a9d7723f37919c",
+          "size": 3940
+        },
+        {
+          "path": "dados/plugins/casos/downloads/playvideo.js",
+          "sha256": "f1aa59b53475efe2e6cad9c71a12f1da503cffa560354a033d4e0624788fce2e",
+          "size": 5370
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T01:41:37.438Z"
+    },
+    {
+      "version": "10.0.55",
+      "fromVersion": "10.0.54",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playdoc atualizado",
+      "notice": "A versão 10.0.55 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playdoc atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/playdoc.js",
+          "sha256": "d1804b16b1c40771aeb5ea03a417f61e638165ac894fb69ccb4bd1b7caa8cc81",
+          "size": 4210
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T01:44:09.840Z"
+    },
+    {
+      "version": "10.0.56",
+      "fromVersion": "10.0.55",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playdoc atualizado",
+      "notice": "A versão 10.0.56 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playdoc atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/playdoc.js",
+          "sha256": "d1804b16b1c40771aeb5ea03a417f61e638165ac894fb69ccb4bd1b7caa8cc81",
+          "size": 4210
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T01:44:38.695Z"
+    },
+    {
+      "version": "10.0.57",
+      "fromVersion": "10.0.56",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playdoc atualizado",
+      "notice": "A versão 10.0.57 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playdoc atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/playdoc.js",
+          "sha256": "63dd9ec0e2497109f882168f035437265911dc24e361810aaf156da6bffee05f",
+          "size": 4212
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T01:46:12.000Z"
+    },
+    {
+      "version": "10.0.58",
+      "fromVersion": "10.0.57",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Comando Playdoc atualizado",
+      "notice": "A versão 10.0.58 já está disponível para atualização.",
+      "changelog": [
+        "Comando Playdoc atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/downloads/playdoc.js",
+          "sha256": "21d62ac15ff446c9efaa9829e8e9bd920dad411a10bdb8b6aabed2616c1a1160",
+          "size": 4509
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T01:47:30.723Z"
+    },
+    {
+      "version": "10.0.59",
+      "fromVersion": "10.0.58",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Index atualizado",
+      "notice": "A versão 10.0.59 já está disponível para atualização.",
+      "changelog": [
+        "Index atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/sistemas/aluguel/index.js",
+          "sha256": "c0d02fe273545df28d70b52351b4b215a9647945d81c9f8183ca8487cc8e7e7a",
+          "size": 8611
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T19:13:53.519Z"
+    },
+    {
+      "version": "10.0.60",
+      "fromVersion": "10.0.59",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Pix atualizado",
+      "notice": "A versão 10.0.60 já está disponível para atualização.",
+      "changelog": [
+        "Pix atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/aluguel/pix.js",
+          "sha256": "ebab720927d3479fb5fe60aaf3ad629343fa5e4b44ec5193b2790a788aead8c1",
+          "size": 4072
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T19:14:30.049Z"
+    },
+    {
+      "version": "10.0.61",
+      "fromVersion": "10.0.60",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Pix atualizado",
+      "notice": "A versão 10.0.61 já está disponível para atualização.",
+      "changelog": [
+        "Pix atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/aluguel/pix.js",
+          "sha256": "7d13b25dc83df32ca7fdcfd443eaee832541d65cc513102b08e0e418afd2583f",
+          "size": 4237
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-19T19:22:46.911Z"
+    },
+    {
+      "version": "10.0.62",
+      "fromVersion": "10.0.61",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "4 arquivos atualizados",
+      "notice": "A versão 10.0.62 já está disponível para atualização.",
+      "changelog": [
+        "Comprar atualizado",
+        "Global atualizado",
+        "Pix atualizado",
+        "Index atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/aluguel/comprar.js",
+          "sha256": "62595459d9d0c4a0b49a01887cb210d14ab24dde379eacfde373f0bdae26c73d",
+          "size": 4250
+        },
+        {
+          "path": "dados/database/lib/global.js",
+          "sha256": "6313b7caafdd5372ef73a5fd092ba6df67b1aa82d1d7bcbcd0055794ac9a3c15",
+          "size": 152989
+        },
+        {
+          "path": "dados/plugins/aluguel/pix.js",
+          "sha256": "f99f5eebbea2b3cec795747ffbc0a0a40fca30918eff646fa15183ef41b1145e",
+          "size": 4483
+        },
+        {
+          "path": "dados/sistemas/aluguel/index.js",
+          "sha256": "67d86ba66c5889ee414cad7962bb8caaea5ee14ad3e678897dc9ed1559c7469c",
+          "size": 11897
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-20T01:10:29.559Z"
+    },
+    {
+      "version": "10.0.63",
+      "fromVersion": "10.0.62",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "9 arquivos atualizados",
+      "notice": "A versão 10.0.63 já está disponível para atualização.",
+      "changelog": [
+        "X4 atualizado",
+        "Evento Reacao atualizado",
+        "Evento X4 atualizado",
+        "Menus atualizados",
+        "Modox4 atualizado",
+        "Reacao atualizado",
+        "Time atualizado",
+        "Notas atualizado",
+        "Xgp atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/freefire/_x4.js",
+          "sha256": "d3a33bf38a8684073e8c49c0e5ea3e92288adc4d7dd7d4b164651227e8a44c20",
+          "size": 1425
+        },
+        {
+          "path": "dados/plugins/freefire/evento-reacao.js",
+          "sha256": "20b6b651b102914bd01d00492b2f31bf18aa8970a4aa480331ddfed241c8cf3e",
+          "size": 1720
+        },
+        {
+          "path": "dados/plugins/freefire/evento-x4.js",
+          "sha256": "6b9844feedde43fba081b750f56f07d592c3fe4f443b7334ff78d594b1782898",
+          "size": 2670
+        },
+        {
+          "path": "dados/database/lib/menus.js",
+          "sha256": "8c202b661377a1c855e52733dd517142ab1ec9e373fa677acad3c02017ad4ab2",
+          "size": 57360
+        },
+        {
+          "path": "dados/plugins/freefire/modox4.js",
+          "sha256": "1fe6717ec8b978a01017ce7beaf0e23da067da4621af67ded8375d2d97be49f2",
+          "size": 1631
+        },
+        {
+          "path": "dados/plugins/freefire/reacao.js",
+          "sha256": "6f7256b245f42c18aa3652804dbb68e17a209377b5c2f3dac0a7b49f88a089f2",
+          "size": 4821
+        },
+        {
+          "path": "dados/plugins/freefire/time.js",
+          "sha256": "912f514ae48499c4b0d3ff9dcc89ec2c16b051ac2ad7669ee1dda8a114501391",
+          "size": 2145
+        },
+        {
+          "path": "dados/plugins/freefire/notas.js",
+          "sha256": "04d6fe237594da49a0f682258e88cc5e728ee188b6c47ac82eba923fa3a80779",
+          "size": 3715
+        },
+        {
+          "path": "dados/plugins/freefire/xgp.js",
+          "sha256": "2d2cff13ecfb957f53f6822e60e772d69949569fc5887bb9661d6fb026fe9aae",
+          "size": 1632
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-20T01:33:29.475Z"
+    },
+    {
+      "version": "10.0.64",
+      "fromVersion": "10.0.63",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Time atualizado",
+      "notice": "A versão 10.0.64 já está disponível para atualização.",
+      "changelog": [
+        "Time atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/freefire/time.js",
+          "sha256": "29e0f8bb4afb904e2f3a436ff3e005140b072227af0b7c12085ab0a5863032d7",
+          "size": 2719
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-20T01:48:12.545Z"
+    },
+    {
+      "version": "10.0.65",
+      "fromVersion": "10.0.64",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Xgp atualizado",
+      "notice": "A versão 10.0.65 já está disponível para atualização.",
+      "changelog": [
+        "Xgp atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/freefire/xgp.js",
+          "sha256": "475355562393aedbdafe6881399e0aef7c42535e59fb3c8078664409c6214a06",
+          "size": 2635
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-20T02:01:38.597Z"
+    },
+    {
+      "version": "10.0.66",
+      "fromVersion": "10.0.65",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "5 arquivos atualizados",
+      "notice": "A versão 10.0.66 já está disponível para atualização.",
+      "changelog": [
+        "Brincadeira Casal atualizada",
+        "Criador atualizado",
+        "Namoro atualizado",
+        "Brincadeira Rankcasal atualizada",
+        "Perfil atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/brincadeiras/casal.js",
+          "sha256": "62fd5cf6e4807a91be5cdb15593cb8f69864f0cd36a557301c36d93fd2042714",
+          "size": 5465
+        },
+        {
+          "path": "dados/plugins/casos/info/criador.js",
+          "sha256": "a9c088ef4686940a6f9116f94f7584e60682418084a2133e1af332b0d80a62dc",
+          "size": 2882
+        },
+        {
+          "path": "dados/plugins/social/namoro.js",
+          "sha256": "e8498ac9fc93cc7837fcd626b0489122c6f2183f2a14aa829f61057c74240f20",
+          "size": 8977
+        },
+        {
+          "path": "dados/plugins/brincadeiras/rankcasal.js",
+          "sha256": "a3e2ea9b36089edcc52035c9f0c8286e9a13483e4f2e165f2b01aecef88b7bae",
+          "size": 4259
+        },
+        {
+          "path": "dados/plugins/casos/info/perfil.js",
+          "sha256": "9d4e44716762aba53d477efd87a2c9a0fdf63adf21c68b9c4d7c2a886659335b",
+          "size": 5588
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-21T14:26:25.466Z"
+    },
+    {
+      "version": "10.0.67",
+      "fromVersion": "10.0.66",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Brincadeira Rankcasal atualizada",
+      "notice": "A versão 10.0.67 já está disponível para atualização.",
+      "changelog": [
+        "Brincadeira Rankcasal atualizada"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/brincadeiras/rankcasal.js",
+          "sha256": "73f10d46ac12c70d7cf581b8b4440835bbba8fa3fcb25256ff5a95386d67cadc",
+          "size": 4257
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-21T14:33:57.150Z"
+    },
+    {
+      "version": "10.0.68",
+      "fromVersion": "10.0.67",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "3 arquivos atualizados",
+      "notice": "A versão 10.0.68 já está disponível para atualização.",
+      "changelog": [
+        "Packbase atualizado",
+        "Figpack atualizado",
+        "Packfig atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/figurinhas/_packbase.js",
+          "sha256": "222424e403758ce44372dd7fc5973164871ba2e1fd1284041e32bfef360a69e0",
+          "size": 10111
+        },
+        {
+          "path": "dados/plugins/casos/figurinhas/figpack.js",
+          "sha256": "4e984f13f11ca21c88375607ce8e15b5e935a28472e801b36e34a4abb5f5f516",
+          "size": 8266
+        },
+        {
+          "path": "dados/plugins/casos/figurinhas/packfig.js",
+          "sha256": "7d151598c1f7d92c60dd5a9096e5e46be1f847c5550b92221f070f0a62251f75",
+          "size": 6323
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-21T20:45:03.825Z"
+    },
+    {
+      "version": "10.0.69",
+      "fromVersion": "10.0.68",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "3 arquivos atualizados",
+      "notice": "A versão 10.0.69 já está disponível para atualização.",
+      "changelog": [
+        "Figpack atualizado",
+        "Packbase atualizado",
+        "Packfig atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/casos/figurinhas/figpack.js",
+          "sha256": "58eaa8f21245152cb9adffd9028652e4474013cbcc7d54fc1f8a6a40acd41535",
+          "size": 9138
+        },
+        {
+          "path": "dados/plugins/casos/figurinhas/_packbase.js",
+          "sha256": "0db650f6a6194402ed0fd103d892f377aee07b5746ac7594011d613414dc8512",
+          "size": 10054
+        },
+        {
+          "path": "dados/plugins/casos/figurinhas/packfig.js",
+          "sha256": "8517acaf59352d9e7c636b3c51676038ca645304b939d5aaa4d585e4397f7c77",
+          "size": 6353
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-21T21:00:18.627Z"
+    },
+    {
+      "version": "10.0.70",
+      "fromVersion": "10.0.69",
+      "channel": "stable",
+      "type": "Atualização completa",
+      "title": "Ponte de migração + estrutura nova",
+      "notice": "A versão 10.0.70 instala uma ponte de compatibilidade antes da migração completa quando necessário.",
+      "changelog": [
+        "Agente IA agora mantém continuidade de pedidos entre mensagens.",
+        "Pedidos de música continuam automaticamente após o usuário informar o nome da música.",
+        "O agente alterna entre texto e áudio conforme o pedido do usuário.",
+        "Menus e interfaces oficiais são enviados pelas funções reais do bot.",
+        "O agente ganhou suporte a alterações do dono, como prefixo, nome do bot e dono principal.",
+        "Respostas do agente ficaram maiores, organizadas e com identidade visual da Tokito.",
+        "Atualização completa substitui a estrutura antiga preservando sessão, configurações e bancos do usuário.",
+        "O dono recebe aviso privado uma única vez quando uma nova versão é publicada.",
+        "npm start up passa a usar o mesmo atualizador oficial do comando .update start.",
+        "Verificação de módulos ficou silenciosa quando está tudo instalado e só avisa quando faltar dependência.",
+        "Adicionada ponte de migração para versões antigas usarem update start com segurança."
+      ],
+      "files": [
+        {
+          "path": "dados/sistemas/dados.js",
+          "sha256": "f29b285c1e8e5c1361e608eee1017b6d4ac807b81c6c19408ca704e09564905b",
+          "size": 32376
+        },
+        {
+          "path": "dados/database/lib/supervisor.js",
+          "sha256": "cdcc31d1f2c04a3ca11a2c19d2f5cc502965cd6040a3eedfdf57cf67c5c940aa",
+          "size": 6173
+        },
+        {
+          "path": "dados/database/lib/update-migrate.js",
+          "sha256": "b5fd4c3232a63a210ff9494612e0fa8055b32ec0a3ff8b77eb82703062ff683d",
+          "size": 1842
+        },
+        {
+          "path": "dados/database/lib/deps.js",
+          "sha256": "6ac7739b3c16f16064491abcc88c36b8509f0ebe4b137bc7613d72ccc65b4c9f",
+          "size": 3046
+        }
+      ],
+      "delete": [],
+      "required": false,
+      "publishedAt": null,
+      "mode": "clean"
+    },
+    {
+      "version": "10.0.71",
+      "fromVersion": "10.0.70",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "4 arquivos atualizados",
+      "notice": "A versão 10.0.71 já está disponível para atualização.",
+      "changelog": [
+        "Dados atualizado",
+        "Deps atualizado",
+        "Supervisor atualizado",
+        "Update Migrate atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/sistemas/dados.js",
+          "sha256": "f29b285c1e8e5c1361e608eee1017b6d4ac807b81c6c19408ca704e09564905b",
+          "size": 32376
+        },
+        {
+          "path": "dados/database/lib/deps.js",
+          "sha256": "6ac7739b3c16f16064491abcc88c36b8509f0ebe4b137bc7613d72ccc65b4c9f",
+          "size": 3046
+        },
+        {
+          "path": "dados/database/lib/supervisor.js",
+          "sha256": "cdcc31d1f2c04a3ca11a2c19d2f5cc502965cd6040a3eedfdf57cf67c5c940aa",
+          "size": 6173
+        },
+        {
+          "path": "dados/database/lib/update-migrate.js",
+          "sha256": "b5fd4c3232a63a210ff9494612e0fa8055b32ec0a3ff8b77eb82703062ff683d",
+          "size": 1842
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T14:44:05.626Z"
+    },
+    {
+      "version": "10.0.72",
+      "fromVersion": "10.0.71",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Arquivo principal do bot atualizado",
+      "notice": "A versão 10.0.72 já está disponível para atualização.",
+      "changelog": [
+        "Arquivo principal do bot atualizado"
+      ],
+      "files": [
+        {
+          "path": "tokito.js",
+          "sha256": "5f16f871568937486524406eddb6ba05c1efc5f175bdc87cbcaba9bc63d506f2",
+          "size": 45287
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T14:44:58.797Z"
+    },
+    {
+      "version": "10.0.73",
+      "fromVersion": "10.0.72",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.73 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "5549d6bb5ae1a7809a85f3d25fa63a8382b63fe1236d687aeb631751c4935232",
+          "size": 19352
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T15:49:44.137Z"
+    },
+    {
+      "version": "10.0.74",
+      "fromVersion": "10.0.73",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.74 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "85309ece1f05af2a320bc505fedab3c521a1e27424c809a58002088f5841a545",
+          "size": 13448
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T15:59:53.814Z"
+    },
+    {
+      "version": "10.0.75",
+      "fromVersion": "10.0.74",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.75 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "eeb4cb015303060315df2265edd6bb5dfeec57301be3c6906b221817b98a9b1e",
+          "size": 10594
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T16:05:15.119Z"
+    },
+    {
+      "version": "10.0.76",
+      "fromVersion": "10.0.75",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.76 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "28f47fa82905c9a2945f93df0be1d6e5385b89ef309a137cf6c499ef1f247dec",
+          "size": 65662
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T16:17:55.131Z"
+    },
+    {
+      "version": "10.0.77",
+      "fromVersion": "10.0.76",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.77 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "7aa2ec54eff02948efd87aecd7c02b48a3ac1f357e0ad6cfb69367499312c2a2",
+          "size": 11858
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T16:25:36.753Z"
+    },
+    {
+      "version": "10.0.78",
+      "fromVersion": "10.0.77",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.78 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "a2c886ab20fc7d755c2c86348f13272576c0bf929742accd7e45554647b8ff98",
+          "size": 19021
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T16:35:54.469Z"
+    },
+    {
+      "version": "10.0.79",
+      "fromVersion": "10.0.78",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.79 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "c6527d59d3231712da229423b956e00f3ca9cdfd7ebe4d45b0d885e860927fb3",
+          "size": 19076
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T16:39:20.106Z"
+    },
+    {
+      "version": "10.0.80",
+      "fromVersion": "10.0.79",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.80 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "1ecf204da1b38e2c323eadfbf0009aa32bda18157ed66bd618817d8c1b5b70d7",
+          "size": 19322
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T16:54:13.428Z"
+    },
+    {
+      "version": "10.0.81",
+      "fromVersion": "10.0.80",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.81 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "9298907d5a7b034be39a9e52877e2ad8f705c65c7fd9216ab042a12c9145210f",
+          "size": 20885
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T17:00:52.208Z"
+    },
+    {
+      "version": "10.0.82",
+      "fromVersion": "10.0.81",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.82 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "4df19da44b78941ebf4db415fe82d5c9eb16cde769dc5072ec08dc15c70fad97",
+          "size": 21556
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T17:21:56.899Z"
+    },
+    {
+      "version": "10.0.83",
+      "fromVersion": "10.0.82",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "Bateria atualizado",
+      "notice": "A versão 10.0.83 já está disponível para atualização.",
+      "changelog": [
+        "Bateria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/bateria.js",
+          "sha256": "a1c255cdc20c0c0c279ac3c80cd097eff54f5130ea0164681971a3492235f1e5",
+          "size": 21559
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T17:25:00.932Z"
+    },
+    {
+      "version": "10.0.84",
+      "fromVersion": "10.0.83",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "2 arquivos atualizados",
+      "notice": "A versão 10.0.84 já está disponível para atualização.",
+      "changelog": [
+        "Cobrinha atualizado",
+        "IA Memoria atualizada"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/cobrinha.js",
+          "sha256": "084cdcd4e859bfd77b795755abf15494c4d17db4c3d973b46d579d810c71be07",
+          "size": 23506
+        },
+        {
+          "path": "dados/plugins/jogos/memoria.js",
+          "sha256": "4ea822665c0971a120f74a08a5690458ddf898b9e2eed3baafdde66f3da72f7e",
+          "size": 19795
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T17:40:15.969Z"
+    },
+    {
+      "version": "10.0.85",
+      "fromVersion": "10.0.84",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "2 arquivos atualizados",
+      "notice": "A versão 10.0.85 já está disponível para atualização.",
+      "changelog": [
+        "Cobrinha atualizado",
+        "Memoria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/cobrinha.js",
+          "sha256": "5b827e3516ede2f612e177a2e7efb73062b3ecac4a3595ccc591cadaa094c484",
+          "size": 23688
+        },
+        {
+          "path": "dados/plugins/jogos/memoria.js",
+          "sha256": "ce114d6d12f9815754b627dd125f6423b14272293f6b4ccc984edb912f9a2fd1",
+          "size": 19762
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T17:48:38.795Z"
+    },
+    {
+      "version": "10.0.86",
+      "fromVersion": "10.0.85",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "2 arquivos atualizados",
+      "notice": "A versão 10.0.86 já está disponível para atualização.",
+      "changelog": [
+        "Cobrinha atualizado",
+        "Memoria atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/jogos/cobrinha.js",
+          "sha256": "5689552cf283a08022cd4157d1b35df675a34de9728d5d8728408ca737ff5ad0",
+          "size": 22155
+        },
+        {
+          "path": "dados/plugins/jogos/memoria.js",
+          "sha256": "4848cc24a26a579acc003253c83ac6bd964346427f78de99ca1c127008bb8674",
+          "size": 19728
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-08-31T17:55:12.025Z"
+    },
+    {
+      "version": "10.0.87",
+      "fromVersion": "10.0.86",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "8 arquivos atualizados",
+      "notice": "A versão 10.0.87 já está disponível para atualização.",
+      "changelog": [
+        "Abrirgp atualizado",
+        "Fechargp atualizado",
+        "Mensagens atualizado",
+        "Menus atualizado",
+        "Update Cli atualizado",
+        "Toimg atualizado",
+        "Arquivo principal do bot atualizado",
+        "Togif atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/admin/abrirgp.js",
+          "sha256": "ca3f73c36912862a21d94ea1426e55a6946b11da6a7a7ef12eae577888ef67c3",
+          "size": 4020
+        },
+        {
+          "path": "dados/plugins/admin/fechargp.js",
+          "sha256": "4edaf267b1743f42aa4426a8d20736571beb16797cd4afc5919bc45a8bbe3bef",
+          "size": 3981
+        },
+        {
+          "path": "dados/mensagens/mensagens.js",
+          "sha256": "3f4e6adaa6f49c99325b201c814f46763beca14c8e43e05a42eb66537a769ab6",
+          "size": 172497
+        },
+        {
+          "path": "dados/mensagens/menus.js",
+          "sha256": "5617631ab03650db3ef88df3b81690b213b15103f50f6bdc5c81f85a50f57324",
+          "size": 61503
+        },
+        {
+          "path": "dados/database/lib/update-cli.js",
+          "sha256": "40fc5023fd6f2e13553178796d257630ae3cd3b273b6a81f1460ed31b59bab95",
+          "size": 3926
+        },
+        {
+          "path": "dados/plugins/figurinhas/toimg.js",
+          "sha256": "1e71261c534769c26016ef9831e4e024afc402648034fd29f8597ed04ce8695c",
+          "size": 5417
+        },
+        {
+          "path": "tokito.js",
+          "sha256": "97740deaf5125d1e73d5e3260e791d52acd0950fa8d4eac1f3d43e81e254c320",
+          "size": 45668
+        },
+        {
+          "path": "dados/plugins/figurinhas/togif.js",
+          "sha256": "67a897dc6e7363783be9b91e479e254943e72b72aafaa1d62b399e1424beb38a",
+          "size": 10678
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-01T09:04:36.449Z"
+    },
+    {
+      "version": "10.0.88",
+      "fromVersion": "10.0.87",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "3 arquivos atualizados",
+      "notice": "A versão 10.0.88 já está disponível para atualização.",
+      "changelog": [
+        "Figperfil atualizado",
+        "Mensagens atualizado",
+        "Menus atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/figurinhas/figperfil.js",
+          "sha256": "87b9029b2a509da2a7b35629ede272f0d9e55b2d55c0049b5a7d1f69413f23b3",
+          "size": 2772
+        },
+        {
+          "path": "dados/mensagens/mensagens.js",
+          "sha256": "05351a4ff03e50244eb3ce982cf6ac0034aaf65faf804b6af7acd2f135da6c82",
+          "size": 173489
+        },
+        {
+          "path": "dados/mensagens/menus.js",
+          "sha256": "b650f918781b871e183b46daa25b88c0ac72d629524ebccef9150291d7fe4659",
+          "size": 61549
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-01T09:18:12.396Z"
+    },
+    {
+      "version": "10.0.89",
+      "fromVersion": "10.0.88",
+      "channel": "stable",
+      "type": "Melhoria",
+      "title": "Tokito V10.0.89: RPG completo, cidade, pets, pokemon e N-Coins",
+      "notice": "A versão 10.0.89 já está disponível para atualização.",
+      "changelog": [
+        "Cidade atualizado",
+        "Economia atualizado",
+        "Alimentarpet atualizado",
+        "Avancado atualizado",
+        "Petshop atualizado",
+        "Alimentarpokemon atualizado",
+        "Cuidados atualizado",
+        "Geral atualizado",
+        "Gerenciarlevel atualizado",
+        "Index atualizado",
+        "Texto atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/plugins/coins/cidade.js",
+          "sha256": "b5f561d1b9661540d9dfb810d6ac3ab1842713cfa0afac878088c661b56f61a0",
+          "size": 47779
+        },
+        {
+          "path": "dados/plugins/coins/economia.js",
+          "sha256": "15c91501b4071e5945fd44cf5fcf120b01e850a6a015c5431e28cfc55c48c38e",
+          "size": 11082
+        },
+        {
+          "path": "dados/plugins/pets/alimentarpet.js",
+          "sha256": "53588ae173387105cb750d1f5a552f91cc5fcd44a4b0aeb81241416480f88f7c",
+          "size": 3039
+        },
+        {
+          "path": "dados/plugins/pets/avancado.js",
+          "sha256": "a888ba14b93ced708b09e4edc16cc298e513ed0da3d0156923957016abd64381",
+          "size": 14203
+        },
+        {
+          "path": "dados/plugins/pets/petshop.js",
+          "sha256": "08610cdcf233ae55ca52673c3796557231af7930f12b43da75f7e2829d33fa28",
+          "size": 1332
+        },
+        {
+          "path": "dados/plugins/pokemon/alimentarpokemon.js",
+          "sha256": "9ca8081efa229c8aa1cfea3969df9344804933fd474e1b1a76b3fbc0771c7bc5",
+          "size": 2405
+        },
+        {
+          "path": "dados/plugins/pokemon/cuidados.js",
+          "sha256": "842a439b154241944ac59c2e28e58e5fe1bc211818e6751db8745a10a1a9ac48",
+          "size": 12081
+        },
+        {
+          "path": "dados/plugins/pokemon/geral.js",
+          "sha256": "2746eee1223786caaeed29e99db1143d2d4fd4bf8d9d444dcc35ecbd42526847",
+          "size": 2779
+        },
+        {
+          "path": "dados/plugins/rpg/gerenciarlevel.js",
+          "sha256": "daaeff4801e348418f04528307abdd96882f79076529588e6f44071ac4dfba8a",
+          "size": 1958
+        },
+        {
+          "path": "dados/sistemas/rpg/index.js",
+          "sha256": "876b77a2236e31d2198cb499c8d98a1614b7fc7920842756b6bca91ba1102418",
+          "size": 20998
+        },
+        {
+          "path": "dados/sistemas/rpg/texto.js",
+          "sha256": "096732cae5a621a98671b6529e8df1d65e5fda5d50ed79431fb260f479cb22b2",
+          "size": 755
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-01T18:40:54.690Z"
+    },
+    {
+      "version": "10.0.90",
+      "fromVersion": "10.0.89",
+      "channel": "stable",
+      "type": "Melhoria",
+      "title": "Menus atualizado",
+      "notice": "A versão 10.0.90 já está disponível para atualização.",
+      "changelog": [
+        "Menus atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/mensagens/menus.js",
+          "sha256": "b650f918781b871e183b46daa25b88c0ac72d629524ebccef9150291d7fe4659",
+          "size": 61549
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-01T18:57:28.565Z"
+    },
+    {
+      "version": "10.0.91",
+      "fromVersion": "10.0.90",
+      "channel": "stable",
+      "type": "Melhoria",
+      "title": "Padroniza mensagens e adiciona modo parceria",
+      "notice": "A versão 10.0.91 já está disponível para atualização.",
+      "changelog": [
+        "Mensagens atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/mensagens/mensagens.js",
+          "sha256": "9913df9ee09e18eca1e4dd143e9b792e34b91286d94fbbc6a72ac2130be77a85",
+          "size": 174396
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-01T19:27:22.316Z"
+    },
+    {
+      "version": "10.0.92",
+      "fromVersion": "10.0.91",
+      "channel": "stable",
+      "type": "Melhoria",
+      "title": "Adiciona modo parceria e manutencao de comandos",
+      "notice": "A versão 10.0.92 já está disponível para atualização.",
+      "changelog": [
+        "Mensagens atualizado",
+        "Filtro Anticanal atualizado",
+        "Filtro Antilink atualizado",
+        "Manutencao atualizado",
+        "Index atualizado",
+        "Gerenciar atualizado",
+        "Modoparceria atualizado",
+        "Parceria atualizado",
+        "Solicitacoes atualizado",
+        "Parcerias atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/mensagens/mensagens.js",
+          "sha256": "441335cbb0fffe67af0496472d2f96349dcd316bfdb4815eb8d86f7bea7a4dd2",
+          "size": 182779
+        },
+        {
+          "path": "dados/plugins/admin/filtro-anticanal.js",
+          "sha256": "c61e6cff795ad756cc6ff055f21ca9c8563857fa04f6ef69979c8cf1570d0f85",
+          "size": 2874
+        },
+        {
+          "path": "dados/plugins/admin/filtro-antilink.js",
+          "sha256": "d4f3ba5db350271339bde26d20a925ea6e2475b11f5d853c05b5395c6d958f36",
+          "size": 5443
+        },
+        {
+          "path": "dados/plugins/dono/manutencao.js",
+          "sha256": "e8ec20cfff214b439b638383bdcb5e905d3c4b18d4cbdee64641954dfe4483b9",
+          "size": 2784
+        },
+        {
+          "path": "dados/plugins/index.js",
+          "sha256": "a074d9cf2c6492646f07c2087c99e49ad55dfa257d2629c7ee2ba4840868788c",
+          "size": 6702
+        },
+        {
+          "path": "dados/plugins/parceria/gerenciar.js",
+          "sha256": "4da9658e274d1d4a1754b858014de35d8577b6d0250fe961c88d45cbeb747534",
+          "size": 7070
+        },
+        {
+          "path": "dados/plugins/parceria/modoparceria.js",
+          "sha256": "6055918499d05c31cb633e699fe9d8c2413a7d6f892f0e8f28611f94f7668699",
+          "size": 1392
+        },
+        {
+          "path": "dados/plugins/parceria/parceria.js",
+          "sha256": "06f8836fa542387eb7e616c591189deba104b44a9ae17f9df2a7812b3db2acc4",
+          "size": 4727
+        },
+        {
+          "path": "dados/plugins/parceria/solicitacoes.js",
+          "sha256": "b3ec9da2dc21ba8b6d6c3303d3c2d15ac0b928741162531c3a0101f083ce5105",
+          "size": 5301
+        },
+        {
+          "path": "dados/sistemas/manutencao.js",
+          "sha256": "e12612762250af1bcb25f11081310d77ab0f56528da931a8559c97c853223611",
+          "size": 2825
+        },
+        {
+          "path": "dados/sistemas/parcerias.js",
+          "sha256": "f0e1ec5588d6a81fb695e0d63662348ce08b8daacedc0e6d39c38f0a40f7391c",
+          "size": 14417
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-01T19:45:25.145Z"
+    },
+    {
+      "version": "10.0.93",
+      "fromVersion": "10.0.92",
+      "channel": "stable",
+      "type": "Novidade",
+      "title": "feat: adiciona sistema de playlist e radio",
+      "notice": "A versão 10.0.93 já está disponível para atualização.",
+      "changelog": [
+        "Mensagens atualizado",
+        "Menus atualizado",
+        "Playlist atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/mensagens/mensagens.js",
+          "sha256": "1aa8840fc07cc8ebe6ba17e8f50accdfd375f93bb5d4c814d01cb2793dde6d3f",
+          "size": 201893
+        },
+        {
+          "path": "dados/mensagens/menus.js",
+          "sha256": "a66d5e49ddbaf97a9558db6df3e903394e46491df0516f7a6bf86a6e0e724d2b",
+          "size": 45056
+        },
+        {
+          "path": "dados/plugins/downloads/playlist.js",
+          "sha256": "c0b96466a367c44c9467408a77afc7dcb6d037cb5fc6baae3797ba222c23da54",
+          "size": 19281
+        },
+        {
+          "path": "dados/sistemas/playlist.js",
+          "sha256": "5b71cc86d905e1614ca5dc30d85de95815c55bbe2f16586630274160ac73ff1d",
+          "size": 32568
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-02T00:30:24.644Z"
+    },
+    {
+      "version": "10.0.94",
+      "fromVersion": "10.0.93",
+      "channel": "stable",
+      "type": "Correção",
+      "title": "fix: corrige menus truncado da playlist",
+      "notice": "A versão 10.0.94 já está disponível para atualização.",
+      "changelog": [
+        "Menus atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/mensagens/menus.js",
+          "sha256": "cd0aa4d9772c6d84701e60c699d5f9dd037c206eea1045ab0fa192152ff9d3da",
+          "size": 61685
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-02T00:36:23.273Z"
+    },
+    {
+      "version": "10.0.95",
+      "fromVersion": "10.0.94",
+      "channel": "stable",
+      "type": "Novidade",
+      "title": "feat: melhora playlist radio e player",
+      "notice": "A versão 10.0.95 já está disponível para atualização.",
+      "changelog": [
+        "Mensagens atualizado",
+        "Playlist atualizado"
+      ],
+      "files": [
+        {
+          "path": "dados/mensagens/mensagens.js",
+          "sha256": "203caaba4638a80931294136494948a7c45e008875bea70d00f8f9e099865d1b",
+          "size": 205607
+        },
+        {
+          "path": "dados/plugins/downloads/playlist.js",
+          "sha256": "5c39ca745a840ab5a2ac280d602085a1fd163d43d40dd01f3bc024c92f36c125",
+          "size": 20484
+        },
+        {
+          "path": "dados/sistemas/playlist.js",
+          "sha256": "13173b9c64a2fe5ff08e4ceff970ffab81fc38379c30bd3b60b9a388f5ff62f5",
+          "size": 37459
+        }
+      ],
+      "delete": [],
+      "required": true,
+      "publishedAt": "2026-09-02T01:09:24.489Z"
+    }
+  ],
+  "versao": "10.0.70",
+  "mode": "clean",
+  "notify": true,
+  "migration": {
+    "id": "tokito-v10-clean-structure-20260831",
+    "required": true,
+    "automatic": true,
+    "minimumVersion": "10.0.0",
+    "marker": "dados/INFO_DADOS/update-structure.json",
+    "note": "Versões antigas recebem primeiro os arquivos da ponte e depois migram para a estrutura completa preservando dados protegidos."
+  }
+}
