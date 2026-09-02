@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: sayox-bot
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: node sayox.js
+    healthCheckPath: /
+    autoDeploy: true

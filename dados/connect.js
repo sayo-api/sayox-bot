@@ -141,6 +141,22 @@ const mensagem = error?.message || error || 'Erro desconhecido'
 erro(`${titulo}: ${ocultarSegredos(mensagem)}`)
 }
 
+/*
+ * Servidor HTTP mínimo, só para satisfazer o health check de hosts como
+ * o Render (exige uma porta aberta) e servir de alvo para um ping de
+ * keep-alive externo (ex.: UptimeRobot) no plano gratuito, que dorme o
+ * serviço após 15 minutos sem tráfego HTTP.
+ */
+const KEEP_ALIVE_PORT = process.env.PORT
+if (KEEP_ALIVE_PORT) {
+require('http')
+.createServer((req, res) => {
+res.writeHead(200, { 'Content-Type': 'text/plain' })
+res.end('Sayox Bot online')
+})
+.listen(KEEP_ALIVE_PORT, () => info(`Servidor keep-alive ouvindo na porta ${KEEP_ALIVE_PORT}.`))
+}
+
 const originalConsoleError = console.error
 const originalConsoleWarn = console.warn
 const originalConsoleInfo = console.info
@@ -1042,7 +1058,14 @@ return
 /* MODO LIVRE (Sayox): sem revalidação de licença em segundo plano. */
 await mongo.iniciar()
 
-if (!(await isRegistered()) || process.argv.includes('painel')) await showMenu()
+if (!(await isRegistered()) || process.argv.includes('painel')) {
+if (process.stdin.isTTY) {
+await showMenu()
+} else {
+metodo = 'qr'
+aviso('Sem terminal interativo (ex.: Render). Iniciando automaticamente por QR-Code — acompanhe os logs.')
+}
+}
 
 startConnect()
 }
